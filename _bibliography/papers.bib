@@ -48,16 +48,18 @@
   abstract     = {We construct a paired RGB-thermal benchmark from FLIR ADAS v1.3, annotating 52,857 objects in RGB images across 9,598 paired frames with shared, leakage-checked splits, and evaluate eleven YOLO configurations in both modalities with three seeds each (66 runs). MaxSPD-YOLO11n, which combines higher-resolution detection heads, space-to-depth down-sampling and a MaxViT block, improves test AP50:95 over YOLO11n from 37.9% to 40.3% in RGB and from 28.2% to 29.9% in thermal, and small-object AP from 31.5% to 36.0% (RGB) and 21.0% to 22.8% (thermal), with 43% fewer parameters but more computation (13.8 vs. 6.4 GFLOPs).}
 }
 
-@misc{rizwan2026rscyolo,
-  title        = {{RSC-YOLOv26n: A Lightweight Detector for Small Drone Detection}},
-  author       = {Rizwan, Muhammad and Rehman, Abdul},
+@misc{rizwan2026sdyolo,
+  title        = {{Cross-Generation Small-Drone Detection with Compact YOLO Modules}},
+  author       = {Rizwan, Muhammad and Khan, Abdul Rehman and Khan, Muhammad Muzaffar and Ullah, Sibghat and Hussain, Muhammad Ishfaq and Ahmed, Waqas and Jeon, Moongu and Khan, Asifullah},
   year         = {2026},
-  note         = {Manuscript in preparation},
-  abbr         = {In Prep.},
-  preview      = {drone_detection.png},
-  selected     = {false},
-  abstract     = {A lightweight YOLO-based detector designed for small and distant drones, combining architectural changes that preserve fine spatial detail with an efficient design suitable for edge deployment.}
+  note         = {Journal article, under review},
+  abbr         = {Journal},
+  preview      = {sd_yolo.png},
+  website      = {https://rizwan00277.github.io/sd-yolo/},
+  selected     = {true},
+  abstract     = {Lightweight modules for small-drone detection are usually tested on a single YOLO release with frame-level splits, so it is unclear whether they help other YOLO generations. We add a stride-4 (P2) head, followed by attention, downsampling and neck modules chosen stage by stage on validation, to YOLOv8n, YOLO11n and YOLO26n under one protocol, and evaluate all 48 configuration-generation combinations on 46 test videos of a video-disjoint Drone-vs-Bird split. Selected on validation, P2 + ELA + ADown raises the test mAP50-95 of YOLO11n and YOLO26n by 26% and 35% and their small-object AP by 44% and 60% (Holm-corrected p <= 0.037), with 11-12% fewer parameters; exploratory test-selected variants reach up to 48% higher mAP50-95. Module effects depend on the generation, so lightweight modules should be re-validated for each YOLO release.}
 }
+
 
 @mastersthesis{rizwan2024thesis,
   title        = {{Improving YOLOv8 for the Detection of Small and Distant Drones}},
