@@ -10,7 +10,7 @@
   year         = {2026},
   note         = {Accepted, to appear},
   abbr         = {ICIC 2026},
-  preview      = {ptsd_pipeline.png},
+  preview      = {ptsd_fig1.png},
   selected     = {true},
   abstract     = {Deep learning models have reported promising results in detecting post-traumatic stress disorder (PTSD) from interview videos, but high scores do not show that a model has learned patterns related to the condition. We investigate this on PTSD in the Wild, a dataset of 634 public videos labeled through self-disclosure, comparing facial, behavioral, vocal and textual models with probes that never see the person under progressively stricter subject-grouped, source-disjoint and metadata-balanced evaluation. Under subject-grouped evaluation, container metadata alone reaches an AUC of 0.986, and a background probe with the person removed reaches 0.945, comparable to facial models. On a metadata-balanced subset, facial models drop to AUCs of 0.67-0.73, while interviewee-only voice reaches 0.886 and a transcript-only probe 0.923. Source, production and content differences may substantially influence performance on this benchmark.}
 }
@@ -21,7 +21,7 @@
   year         = {2026},
   note         = {Submitted to ICACS 2027 (RAS\&DT track), under review},
   abbr         = {ICACS 2027},
-  preview      = {multi_camera_tracking.png},
+  preview      = {localization_fig1.png},
   selected     = {true},
   abstract     = {A marker-free system that localizes heterogeneous ground robots in an 8 x 4 m arena using two ZED 2i stereo cameras. Each camera runs a fine-tuned YOLOv8n detector, lifts detections to 3-D with the stereo point cloud and maps them to arena coordinates through a floor-plane calibration; cross-camera detections are fused by gated Hungarian assignment and a Kalman tracker. Projecting each measurement onto the calibrated floor plane removes a height-dependent bias and reduces mean error from 14.4 to 5.8 cm, with both cameras running at about 30 FPS.}
 }
@@ -32,7 +32,7 @@
   year         = {2026},
   note         = {Submitted to ICACS 2027 (CV\&M track), under review},
   abbr         = {ICACS 2027},
-  preview      = {aerial_gesture.png},
+  preview      = {gesture_fig1.png},
   selected     = {true},
   abstract     = {Recognising human gestures from a UAV is hard because people appear small and distant and subject diversity is limited. On the real-air subset of RoCoG-v2 we build a subject-independent benchmark of six keypoint-based classifiers, including AeroPoseFormer, a lightweight spatio-temporal Transformer. Random video-level splits inflate performance by about 11-16 points; synthetic-skeleton pretraining improves every deep model (macro-F1 +0.10 to +0.25), and AeroPoseFormer reaches 0.59 macro-F1 on a held-out subject recorded at 30 m, a distance absent from training.}
 }
@@ -43,7 +43,7 @@
   year         = {2026},
   note         = {Submitted to the International Conference on Computing, Intelligence and Innovation (ICCII 2026), under review},
   abbr         = {ICCII 2026},
-  preview      = {flir_annotations.png},
+  preview      = {maxspd_yolo_arch.png},
   selected     = {true},
   abstract     = {We construct a paired RGB-thermal benchmark from FLIR ADAS v1.3, annotating 52,857 objects in RGB images across 9,598 paired frames with shared, leakage-checked splits, and evaluate eleven YOLO configurations in both modalities with three seeds each (66 runs). MaxSPD-YOLO11n, which combines higher-resolution detection heads, space-to-depth down-sampling and a MaxViT block, improves test AP50:95 over YOLO11n from 37.9% to 40.3% in RGB and from 28.2% to 29.9% in thermal, and small-object AP from 31.5% to 36.0% (RGB) and 21.0% to 22.8% (thermal), with 43% fewer parameters but more computation (13.8 vs. 6.4 GFLOPs).}
 }
@@ -54,7 +54,7 @@
   year         = {2026},
   note         = {Journal article, under review},
   abbr         = {Journal},
-  preview      = {sd_yolo.png},
+  preview      = {sd_yolo11n_arch.png},
   website      = {https://rizwan00277.github.io/sd-yolo/},
   selected     = {true},
   abstract     = {Lightweight modules for small-drone detection are usually tested on a single YOLO release with frame-level splits, so it is unclear whether they help other YOLO generations. We add a stride-4 (P2) head, followed by attention, downsampling and neck modules chosen stage by stage on validation, to YOLOv8n, YOLO11n and YOLO26n under one protocol, and evaluate all 48 configuration-generation combinations on 46 test videos of a video-disjoint Drone-vs-Bird split. Selected on validation, P2 + ELA + ADown raises the test mAP50-95 of YOLO11n and YOLO26n by 26% and 35% and their small-object AP by 44% and 60% (Holm-corrected p <= 0.037), with 11-12% fewer parameters; exploratory test-selected variants reach up to 48% higher mAP50-95. Module effects depend on the generation, so lightweight modules should be re-validated for each YOLO release.}
