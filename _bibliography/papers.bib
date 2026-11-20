@@ -1,15 +1,51 @@
 ---
 ---
 
-@misc{rizwan2026dualzed,
-  title        = {{Real-Time Multi-Robot Tracking and Global Localization Using Dual Stereo Cameras}},
+@inproceedings{rizwan2026ptsd,
+  title        = {{Is It PTSD or the Production? Auditing Shortcut Learning in Video-Based PTSD Detection}},
+  author       = {Rizwan, Muhammad and Khan, Muhammad Awais and Kamran, Muhammad Ahmad},
+  booktitle    = {International Conference on Innovative Computing (ICIC 2026)},
+  address      = {UMT, Lahore, Pakistan},
+  publisher    = {IEEE},
+  year         = {2026},
+  note         = {Accepted, to appear},
+  abbr         = {ICIC 2026},
+  preview      = {ptsd_pipeline.png},
+  selected     = {true},
+  abstract     = {Deep learning models have reported promising results in detecting post-traumatic stress disorder (PTSD) from interview videos, but high scores do not show that a model has learned patterns related to the condition. We investigate this on PTSD in the Wild, a dataset of 634 public videos labeled through self-disclosure, comparing facial, behavioral, vocal and textual models with probes that never see the person under progressively stricter subject-grouped, source-disjoint and metadata-balanced evaluation. Under subject-grouped evaluation, container metadata alone reaches an AUC of 0.986, and a background probe with the person removed reaches 0.945, comparable to facial models. On a metadata-balanced subset, facial models drop to AUCs of 0.67-0.73, while interviewee-only voice reaches 0.886 and a transcript-only probe 0.923. Source, production and content differences may substantially influence performance on this benchmark.}
+}
+
+@misc{rizwan2026localization,
+  title        = {{Marker-Free Infrastructure-Based Localization of Multiple Ground Robots with Two Stereo Depth Cameras}},
   author       = {Rizwan, Muhammad},
   year         = {2026},
-  note         = {Manuscript in preparation},
-  abbr         = {In Prep.},
+  note         = {Submitted to ICACS 2027, under review},
+  abbr         = {ICACS 2027},
   preview      = {multi_camera_tracking.png},
   selected     = {true},
-  abstract     = {We present a multi-camera system that localizes and tracks multiple TurtleBot 4 robots in a shared 8 x 4 m arena. Two fixed ZED 2i stereo cameras are calibrated into a common world frame; YOLO detections are lifted to 3D using stereo depth and fused across cameras with Hungarian assignment, giving each robot a stable identity and a global (x, y) position in real time.}
+  abstract     = {A marker-free system that localizes heterogeneous ground robots in an 8 x 4 m arena using two ZED 2i stereo cameras. Each camera runs a fine-tuned YOLOv8n detector, lifts detections to 3-D with the stereo point cloud and maps them to arena coordinates through a floor-plane calibration; cross-camera detections are fused by gated Hungarian assignment and a Kalman tracker. Projecting each measurement onto the calibrated floor plane removes a height-dependent bias and reduces mean error from 14.4 to 5.8 cm, with both cameras running at about 30 FPS.}
+}
+
+@misc{rizwan2026aerialgesture,
+  title        = {{Synthetic Skeleton Pretraining for Subject-Independent Aerial Gesture Recognition}},
+  author       = {Rizwan, Muhammad and Khan, Muhammad Awais and Kamran, Muhammad Ahmad},
+  year         = {2026},
+  note         = {Submitted to ICACS 2027, under review},
+  abbr         = {ICACS 2027},
+  preview      = {aerial_gesture.png},
+  selected     = {true},
+  abstract     = {Recognising human gestures from a UAV is hard because people appear small and distant and subject diversity is limited. On the real-air subset of RoCoG-v2 we build a subject-independent benchmark of six keypoint-based classifiers, including AeroPoseFormer, a lightweight spatio-temporal Transformer. Random video-level splits inflate performance by about 11-16 points; synthetic-skeleton pretraining improves every deep model (macro-F1 +0.10 to +0.25), and AeroPoseFormer reaches 0.59 macro-F1 on a held-out subject recorded at 30 m, a distance absent from training.}
+}
+
+@misc{rizwan2026rgbthermal,
+  title        = {{A Paired RGB-Thermal Benchmark and the MaxSPD-YOLO Detector for Small Road-User Detection}},
+  author       = {Rizwan, Muhammad},
+  year         = {2026},
+  note         = {Submitted to ICCII 2026, Riphah International University, under review},
+  abbr         = {ICCII 2026},
+  preview      = {flir_annotations.png},
+  selected     = {true},
+  abstract     = {We construct a paired RGB-thermal benchmark from FLIR ADAS v1.3, annotating 52,857 objects in RGB images across 9,598 paired frames with shared, leakage-checked splits, and evaluate eleven YOLO configurations in both modalities with three seeds each (66 runs). MaxSPD-YOLO11n, which combines higher-resolution detection heads, space-to-depth down-sampling and a MaxViT block, improves small-object AP over YOLO11n from 31.5 to 36.0 in RGB and from 21.0 to 22.8 in thermal, at 2.2x the GFLOPs.}
 }
 
 @misc{rizwan2026rscyolo,
@@ -19,19 +55,8 @@
   note         = {Manuscript in preparation},
   abbr         = {In Prep.},
   preview      = {drone_detection.png},
-  selected     = {true},
-  abstract     = {A lightweight YOLO-based detector designed for small and distant drones, combining architectural changes that preserve fine spatial detail with an efficient design suitable for edge deployment.}
-}
-
-@misc{rizwan2026flir,
-  title        = {{RGB Annotations for the FLIR ADAS Dataset: Baselines for RGB Object Detection}},
-  author       = {Rizwan, Muhammad},
-  year         = {2026},
-  note         = {Manuscript in preparation},
-  abbr         = {In Prep.},
-  preview      = {flir_annotations.png},
   selected     = {false},
-  abstract     = {We manually annotate more than 9,000 RGB images of the FLIR ADAS v1.3 dataset in YOLO format and report YOLOv8n baselines, enabling RGB and RGB-thermal object detection research on this benchmark.}
+  abstract     = {A lightweight YOLO-based detector designed for small and distant drones, combining architectural changes that preserve fine spatial detail with an efficient design suitable for edge deployment.}
 }
 
 @mastersthesis{rizwan2024thesis,
@@ -41,7 +66,7 @@
   year         = {2024},
   abbr         = {MS Thesis},
   preview      = {drone_detection.png},
-  selected     = {true},
+  selected     = {false},
   note         = {Supervised by Dr. Asifullah Khan. Gold Medal.},
   abstract     = {Small drones occupy only a few pixels in an image, which makes them hard for standard object detectors. This thesis modifies the YOLOv8 architecture to retain fine spatial detail and strengthen small-object features, improving the detection of small and distant drones.}
 }

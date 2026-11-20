@@ -20,6 +20,6 @@ category: computer vision
 - Annotated **9,000+ RGB images** in YOLO format.
 - Trained and evaluated **YOLOv8n** detectors to provide baselines for RGB and RGB–thermal object detection research.
 
-**Status.** Paper in preparation for a local IEEE conference.
+**Status.** Paper submitted to ICCII 2026: "A Paired RGB-Thermal Benchmark and the MaxSPD-YOLO Detector for Small Road-User Detection" (under review).
 
 **Stack.** YOLOv8 · Python · annotation tools

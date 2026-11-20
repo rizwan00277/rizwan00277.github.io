@@ -22,6 +22,6 @@ category: robotics
 - A cross-camera tracker uses **Hungarian assignment** to fuse detections and keep a stable identity for each robot (fixed-roster mode).
 - A **PyQt5 GUI** with zoom and pan shows live tracks at up to **60 FPS**. Ground-plane error is roughly **0–0.35 m**.
 
-**Status.** A conference paper on this system is in preparation.
+**Status.** Paper submitted to ICACS 2027: "Marker-Free Infrastructure-Based Localization of Multiple Ground Robots with Two Stereo Depth Cameras" (under review).
 
 **Stack.** Python · ZED SDK · YOLO · OpenCV · PyQt5 · ROS 2
