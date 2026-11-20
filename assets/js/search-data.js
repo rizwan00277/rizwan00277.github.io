@@ -79,7 +79,7 @@ ninja.data = [{
               window.location.href = "/projects/4_drone_detection/";
             },},{id: "projects-paired-rgb-thermal-benchmark-and-maxspd-yolo-for-small-road-users",
           title: 'Paired RGB–Thermal Benchmark and MaxSPD-YOLO for Small Road Users',
-          description: "52,857 new RGB labels for FLIR ADAS and a compact detector that lifts small-object AP from 31.5% to 36.0%.",
+          description: "RGB labels for the FLIR ADAS dataset and a lightweight detector for small road users in RGB and thermal images.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_flir_rgb_annotations/";
             },},{id: "projects-llm-guided-robot-navigation-assistant",
