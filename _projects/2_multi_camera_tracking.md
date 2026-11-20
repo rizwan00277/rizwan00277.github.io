@@ -3,8 +3,8 @@ layout: page
 title: "Multi-Robot Tracking with Dual ZED 2i Stereo Cameras"
 description: Real-time global localization of multiple TurtleBot 4 robots in an 8 m arena using two fixed stereo cameras.
 img: assets/img/projects/localization_architecture.png
-importance: 2
-category: robotics
+importance: 3
+category: applied vision
 ---
 
 <div class="row justify-content-sm-center">

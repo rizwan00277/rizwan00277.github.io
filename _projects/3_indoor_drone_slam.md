@@ -3,8 +3,8 @@ layout: page
 title: "GPS-Denied Indoor Drone Flight with Visual SLAM"
 description: A custom quadrotor that flies indoors using stereo visual odometry on a Jetson Orin Nano and ArduPilot.
 img: assets/img/projects/indoor_drone_diagram.png
-importance: 3
-category: robotics
+importance: 5
+category: applied vision
 ---
 
 <div class="row justify-content-sm-center">

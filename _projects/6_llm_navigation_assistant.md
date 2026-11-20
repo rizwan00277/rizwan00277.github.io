@@ -4,7 +4,7 @@ title: "LLM-Guided Robot Navigation Assistant"
 description: A desktop assistant that lets you talk to a TurtleBot — combining ROS 2, YOLO, ZED cameras, and a locally hosted LLM.
 img: assets/img/projects/aura_gui.png
 importance: 6
-category: robotics
+category: applied vision
 ---
 
 <div class="row justify-content-sm-center">

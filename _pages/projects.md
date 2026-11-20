@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: research and engineering projects in robot learning, perception, and computer vision.
+description: computer vision and deep learning research, centred on small-object detection, and vision applied on real platforms.
 nav: true
 nav_order: 3
-display_categories: [robotics, computer vision]
+display_categories: [computer vision, applied vision]
 horizontal: false
 ---
 

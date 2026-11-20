@@ -1,10 +1,10 @@
 cv:
   name: Muhammad Rizwan
-  label: Research Associate — Robotics, Deep Reinforcement Learning & Computer Vision
+  label: Research Associate — Computer Vision & Deep Learning (Small-Object Detection)
   email: rizwan00277@gmail.com
   location: Islamabad, Pakistan
   image: ""
-  summary: Research Associate at the AI Technology Centre (AITeC), Islamabad (Autonomous AI & Decision Support Lab). I build autonomous robotic systems end to end — deep reinforcement learning for navigation, multi-camera perception and localization, visual SLAM for indoor drones, and small-object detection — and deploy them on real hardware with ROS 2 and NVIDIA Jetson.
+  summary: Computer vision and deep learning researcher focused on small-object detection. My MS thesis at PIEAS (Gold Medal) redesigned YOLOv8 for small and distant drones; at the AI Technology Centre (AITeC), Islamabad, I continue this work on compact detectors for small drones and small road users in RGB and thermal images, and on reliable evaluation of deep models. Seeking a PhD (Fall 2027) in computer vision and deep learning.
 
   social_networks:
     - network: GitHub
@@ -30,7 +30,7 @@ cv:
         end_date: 2024-10-01
         score: "CGPA: 3.8/4.0 — Gold Medalist"
         highlights:
-          - "Thesis: Improving the YOLOv8 architecture for the detection of small and distant drones"
+          - "Thesis: Improving the YOLOv8 architecture for the detection of small and distant drones (CIS-YOLOv8: CBAM, Involution, extra small-object detection head); extended into the SD-YOLO journal article (under review)"
           - "Advisor: Dr. Asifullah Khan"
 
       - institution: Government College University (GCU)
@@ -49,10 +49,11 @@ cv:
         start_date: 2025-05-01
         end_date: present
         highlights:
-          - "Developed a Soft Actor-Critic (SAC) deep RL agent for mapless navigation and obstacle avoidance, trained in Gazebo (~650k steps) and transferred to a real TurtleBot 4 on ROS 2 using an OAK-D depth camera as a pseudo-LiDAR."
-          - "Built a dual ZED 2i stereo-camera system that tracks and globally localizes multiple robots in an 8 x 4 m arena in real time (YOLO + stereo depth + Hungarian cross-camera assignment, PyQt5 GUI, up to 60 FPS)."
-          - "Integrated a GPS-denied indoor drone (Pixhawk 6X / ArduPilot, Jetson Orin Nano, ZED Mini): MAVROS visual-pose bridge, EKF3 tuning, and real indoor flight; now developing autonomous waypoint missions."
-          - "Built an LLM-guided navigation assistant combining SLAM, Nav2, YOLO, locally deployed LLMs, and speech interfaces."
+          - "Built a paired RGB-thermal benchmark for small road-user detection from FLIR ADAS v1.3 (52,857 new RGB object annotations across 9,598 paired frames) and designed MaxSPD-YOLO11n, improving small-object AP from 31.5% to 36.0% (RGB) with 43% fewer parameters (ICCII 2026, under review)."
+          - "Audited shortcut learning in video-based PTSD detection: under stricter subject-grouped, source-disjoint and metadata-balanced evaluation, reported face-model performance drops sharply (ICIC 2026, accepted)."
+          - "Built a subject-independent benchmark for aerial gesture recognition from drone video; synthetic-skeleton pretraining improves every deep model (macro-F1 +0.10 to +0.25) (ICACS 2027, under review)."
+          - "Developed a marker-free multi-camera localization system: fine-tuned YOLOv8n detection, stereo 3-D lifting and floor-plane projection reduce mean error from 14.4 to 5.8 cm at about 30 FPS per camera (ICACS 2027, under review)."
+          - "Deployed vision models on real platforms: depth-based deep RL navigation on TurtleBot 4, a GPS-denied indoor drone with visual odometry, and an LLM-guided navigation assistant (ROS 2, NVIDIA Jetson)."
           - "Co-supervise student projects on visual SLAM (ORB-SLAM3) and an autonomous hexapod pick-and-place system."
 
       - company: The University of Lahore
@@ -85,21 +86,21 @@ cv:
         summary: Fully funded MS scholarship (PKR 700,000) for MS Computer Science, 2022-2024.
 
     Skills:
+      - name: Computer Vision & Deep Learning
+        icon: fa-solid fa-eye
+        keywords: "Object detection (YOLOv8 / YOLO11 / YOLO26), small-object detection, attention modules, Vision Transformers (MaxViT), multi-object tracking (ByteTrack), RGB-thermal detection"
+
+      - name: Frameworks
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, Ultralytics, OpenCV, scikit-learn, Stable-Baselines3"
+
       - name: Programming
         icon: fa-solid fa-code
         keywords: "Python, C++, Bash"
 
-      - name: Machine Learning
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, Ultralytics YOLO, Stable-Baselines3 (SAC, PPO), OpenCV"
-
-      - name: Robotics
-        icon: fa-solid fa-robot
-        keywords: "ROS 2, Nav2, Gazebo, SLAM (ORB-SLAM3, RTAB-Map), MAVROS, ArduPilot, TurtleBot 4"
-
-      - name: Hardware & Edge AI
+      - name: Applied Platforms
         icon: fa-solid fa-microchip
-        keywords: "NVIDIA Jetson Orin Nano, ZED 2i / ZED Mini, OAK-D, Intel RealSense, Pixhawk 6X"
+        keywords: "NVIDIA Jetson, ROS 2, stereo cameras (ZED 2i, OAK-D)"
 
       - name: Tools
         icon: fa-solid fa-screwdriver-wrench

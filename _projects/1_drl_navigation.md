@@ -3,8 +3,8 @@ layout: page
 title: "Sim-to-Real Deep RL Navigation for TurtleBot 4"
 description: Soft Actor-Critic agent that learns mapless navigation and obstacle avoidance in Gazebo and transfers to a real robot.
 img: assets/img/projects/drl_navigation_diagram.png
-importance: 1
-category: robotics
+importance: 4
+category: applied vision
 ---
 
 <div class="row justify-content-sm-center">

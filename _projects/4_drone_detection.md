@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Small and Distant Drone Detection with Custom YOLO"
+title: "Small and Distant Drone Detection: from MS Thesis to SD-YOLO"
 description: Architecture changes to YOLO (attention, SPD-Conv, lightweight blocks) for detecting tiny drones in the sky.
 img: assets/img/projects/sd_yolo11n_arch.png
-importance: 4
+importance: 1
 category: computer vision
 ---
 
