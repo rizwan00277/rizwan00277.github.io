@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "research and engineering projects in robot learning, perception, and computer vision.",
+          description: "computer vision and deep learning research, centred on small-object detection, and vision applied on real platforms.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -72,14 +72,14 @@ ninja.data = [{
           description: "A custom quadrotor that flies indoors using stereo visual odometry on a Jetson Orin Nano and ArduPilot.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_indoor_drone_slam/";
-            },},{id: "projects-small-and-distant-drone-detection-with-custom-yolo",
-          title: 'Small and Distant Drone Detection with Custom YOLO',
+            },},{id: "projects-small-and-distant-drone-detection-from-ms-thesis-to-sd-yolo",
+          title: 'Small and Distant Drone Detection: from MS Thesis to SD-YOLO',
           description: "Architecture changes to YOLO (attention, SPD-Conv, lightweight blocks) for detecting tiny drones in the sky.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_drone_detection/";
-            },},{id: "projects-rgb-annotations-for-the-flir-adas-dataset",
-          title: 'RGB Annotations for the FLIR ADAS Dataset',
-          description: "Hand-annotated 9,000+ RGB images of FLIR ADAS v1.3 in YOLO format and trained YOLOv8n baselines.",
+            },},{id: "projects-paired-rgb-thermal-benchmark-and-maxspd-yolo-for-small-road-users",
+          title: 'Paired RGB–Thermal Benchmark and MaxSPD-YOLO for Small Road Users',
+          description: "52,857 new RGB labels for FLIR ADAS and a compact detector that lifts small-object AP from 31.5% to 36.0%.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_flir_rgb_annotations/";
             },},{id: "projects-llm-guided-robot-navigation-assistant",
