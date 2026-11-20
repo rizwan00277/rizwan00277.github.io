@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **"Is It PTSD or the Production? Auditing Shortcut Learning in Video-Based PTSD Detection"** has been accepted at **ICIC 2026** (IEEE), UMT Lahore. 🎉
+Our paper **"Is It PTSD or the Production? Auditing Shortcut Learning in Video-Based PTSD Detection"** has been accepted at **ICIC 2026** (IEEE), UMT Lahore.
