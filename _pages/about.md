@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Vision &amp; Deep Learning · Small-Object Detection · Research Associate at the <a href='https://www.ncp.edu.pk/coe-aitec.php'>AI Technology Centre (AITeC)</a>, Islamabad
+subtitle: Research Associate at the <a href='https://www.ncp.edu.pk/coe-aitec.php'>AI Technology Centre (AITeC)</a>, Islamabad.
 
 profile:
   align: right
@@ -27,20 +27,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work on **computer vision and deep learning**, with a focus on **small-object detection**: finding targets that cover only a few pixels in an image, such as distant drones in the sky or pedestrians and cyclists far down the road. These objects are where modern detectors fail most often, and where careful architecture design and honest evaluation make the largest difference.
+I am a Research Associate (Assistant Manager, Technical) at the [AI Technology Centre (AITeC)](https://www.ncp.edu.pk/coe-aitec.php), Islamabad, in the Autonomous AI & Decision Support Lab, working under the supervision of Dr. Muhammad Ahmad Kamran.
 
-**How this started.** During my MS in Computer Science at the [Pakistan Institute of Engineering and Applied Sciences](https://www.pieas.edu.pk/) (PIEAS), supervised by Dr. Asifullah Khan, my thesis redesigned YOLOv8 to detect **small and distant drones** (CIS-YOLOv8: CBAM attention, Involution and an extra high-resolution detection head). I graduated as a **Gold Medalist** (CGPA 3.8/4.0).
+My research interests are in **computer vision and deep learning**, particularly the detection of **small objects**: targets that occupy only a few pixels in an image, such as distant drones or far-away pedestrians, and that remain difficult for current detectors. My work so far follows two directions:
 
-**Where it went next.** I am now a Research Associate (Assistant Manager, Technical) at the **[AI Technology Centre (AITeC)](https://www.ncp.edu.pk/coe-aitec.php)**, Islamabad, working with Dr. Muhammad Ahmad Kamran. I have continued the same line of research:
+- **Small-object detection:** I study how lightweight changes to YOLO detectors, such as higher-resolution detection heads, attention and downsampling modules, affect the detection of small drones and distant road users. This includes a comparison of the same modules across three YOLO generations ([SD-YOLO](https://rizwan00277.github.io/sd-yolo/)) and a paired RGB–thermal benchmark built on the FLIR ADAS dataset.
+- **Evaluation of deep models:** I am interested in whether reported results hold under stricter evaluation, for example subject-independent splits for gesture recognition from drone video, and an analysis of shortcut learning in video-based PTSD detection.
 
-- **Small-drone detection across YOLO generations.** [SD-YOLO](https://rizwan00277.github.io/sd-yolo/) tests whether compact modules transfer across YOLOv8n, YOLO11n and YOLO26n on unseen test videos. The validation-selected design raises small-object AP by up to 60% with fewer parameters, and shows that module gains depend on the YOLO generation (journal, under review).
-- **Small road users in RGB and thermal images.** I built a paired RGB–thermal benchmark from FLIR ADAS (52,857 new RGB annotations) and designed MaxSPD-YOLO, which improves small-object AP from 31.5% to 36.0% with 43% fewer parameters (under review).
-- **Reliable evaluation.** I study when deep models learn shortcuts instead of the task: in video-based PTSD detection (ICIC 2026, accepted) and in subject-independent gesture recognition from drone video, where small and distant people are the norm (under review).
+At AITeC, I also apply vision methods on real platforms: camera-based localization of multiple ground robots, deep reinforcement learning for robot navigation, and vision-based flight for an indoor drone. I also help supervise student projects in the lab.
 
-I also deploy these vision models on real systems at AITeC, such as multi-camera robot localization and indoor drones, which keeps my research grounded in what works outside the benchmark.
+Before joining AITeC, I completed my MS in Computer Science at the [Pakistan Institute of Engineering and Applied Sciences](https://www.pieas.edu.pk/) (PIEAS) under the supervision of Prof. Asifullah Khan, where my thesis worked on improving YOLOv8 for the detection of small and distant drones. I was awarded the Gold Medal (CGPA 3.8/4.0). I completed my BS in Computer Science at [Government College University (GCU), Lahore](https://gcu.edu.pk/), and have taught as a Lecturer at the University of Lahore and as a Teaching Assistant at PIEAS.
 
-Before PIEAS, I completed my BS in Computer Science at [Government College University (GCU), Lahore](https://gcu.edu.pk/), and I have taught as a Lecturer at the University of Lahore and as a Teaching Assistant at PIEAS.
+**Research interests:** small-object detection · efficient and lightweight detectors · multimodal (RGB–thermal) perception · aerial and drone-based vision · robust evaluation and generalization of deep models.
 
 <div class="alert alert-info" role="alert" style="margin-top: 1.5rem;">
-I am looking for <b>PhD positions starting Fall 2027</b> in <b>computer vision and deep learning</b>, especially small-object detection, efficient detector design, multimodal (RGB–thermal) perception and robust evaluation. Feel free to reach out by email.
+I am seeking <b>PhD opportunities starting Fall 2027</b> in computer vision and deep learning, and would be glad to hear from groups working on related problems.
 </div>

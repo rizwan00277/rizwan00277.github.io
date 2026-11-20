@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Paired RGB–Thermal Benchmark and MaxSPD-YOLO for Small Road Users"
-description: 52,857 new RGB labels for FLIR ADAS and a compact detector that lifts small-object AP from 31.5% to 36.0%.
+description: RGB labels for the FLIR ADAS dataset and a lightweight detector for small road users in RGB and thermal images.
 img: assets/img/projects/maxspd_yolo_arch.png
 importance: 2
 category: computer vision
@@ -31,7 +31,7 @@ category: computer vision
 
 - Annotated **52,857 objects** in the RGB images of **9,598 paired RGB–thermal frames**, with shared, leakage-checked splits.
 - Evaluated **eleven YOLO configurations** in both modalities with three seeds each (66 training runs).
-- Designed **MaxSPD-YOLO11n**: higher-resolution detection heads, space-to-depth downsampling and a MaxViT block. Compared with YOLO11n it improves test AP50:95 from 37.9% to 40.3% (RGB) and 28.2% to 29.9% (thermal), and **small-object AP from 31.5% to 36.0%** (RGB), with 43% fewer parameters.
+- Proposed **MaxSPD-YOLO11n**, which adds higher-resolution detection heads, space-to-depth downsampling and a MaxViT block. On our splits it improved small-object AP over YOLO11n (31.5% to 36.0% in RGB) with fewer parameters; details are in the manuscript under review.
 
 **Status.** Paper submitted to ICCII 2026: "A Paired RGB-Thermal Benchmark and the MaxSPD-YOLO Detector for Small Road-User Detection" (under review).
 

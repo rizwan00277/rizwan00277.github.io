@@ -29,9 +29,9 @@ category: computer vision
 
 **Approach.**
 
-- **MS thesis (PIEAS):** modified the **YOLOv8** architecture to keep fine spatial detail and focus on small targets.
+- **MS thesis (PIEAS):** modified the **YOLOv8** architecture to retain fine spatial detail for small targets.
 - Explored and ablated blocks such as **CBAM**, **GAM**, **MaxViT**, **Involution**, **SPD-Conv**, **SCDown** and **RepC3** across YOLOv8 to YOLO26-style models.
-- **SD-YOLO** (journal article under review): one stage-wise module path applied to **YOLOv8n, YOLO11n and YOLO26n** on a video-disjoint Drone-vs-Bird benchmark (46 unseen test videos). Selected on validation, P2 + ELA + ADown raises test mAP50–95 of YOLO11n and YOLO26n by 26% and 35% and small-object AP by 44% and 60%, with 11–12% fewer parameters. Module effects differ between YOLO generations, so modules should be re-validated for each release.
+- **SD-YOLO** (journal article under review): one stage-wise module path applied to **YOLOv8n, YOLO11n and YOLO26n** on a video-disjoint Drone-vs-Bird benchmark (46 unseen test videos). In our experiments, the validation-selected configuration improved test accuracy for YOLO11n and YOLO26n with fewer parameters, while the gain for YOLOv8n was not clearly established. Module effects differed between YOLO generations, which suggests re-validating such modules for each release.
 - **Project page with tracking videos:** [rizwan00277.github.io/sd-yolo](https://rizwan00277.github.io/sd-yolo/)
 
 **Stack.** PyTorch · Ultralytics YOLO · ByteTrack · Python
