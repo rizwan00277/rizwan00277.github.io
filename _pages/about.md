@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Associate at the <a href='https://www.ncp.edu.pk/'>National Centre of Physics</a>, Islamabad · Autonomous AI &amp; Decision Support Lab (AITeC)
+subtitle: Research Associate at the <a href='https://www.ncp.edu.pk/coe-aitec.php'>AI Technology Centre (AITeC)</a>, Islamabad · Autonomous AI &amp; Decision Support Lab
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>AITeC, National Centre of Physics</p>
-    <p>Quaid-i-Azam University Campus</p>
+    <p>AI Technology Centre (AITeC)</p>
+    <p>National Centre for Physics, Quaid-i-Azam University Campus</p>
     <p>Islamabad, Pakistan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Research Associate (Assistant Manager, Technical) at the **Autonomous AI & Decision Support Lab (AITeC)**, [National Centre of Physics](https://www.ncp.edu.pk/) (NCP), Islamabad, where I work under the supervision of Dr. Muhammad Ahmad Kamran.
+I am a Research Associate (Assistant Manager, Technical) at the **[AI Technology Centre (AITeC)](https://www.ncp.edu.pk/coe-aitec.php)**, Islamabad, in its Autonomous AI & Decision Support Lab, where I work under the supervision of Dr. Muhammad Ahmad Kamran.
 
 My research focuses on making **autonomous robots see, localize, and act in the real world**. I work across the full stack — from deep learning models to the hardware they run on:
 

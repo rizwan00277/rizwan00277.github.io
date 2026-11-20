@@ -4,7 +4,7 @@ cv:
   email: rizwan00277@gmail.com
   location: Islamabad, Pakistan
   image: ""
-  summary: Research Associate at the Autonomous AI & Decision Support Lab (AITeC), National Centre of Physics, Islamabad. I build autonomous robotic systems end to end — deep reinforcement learning for navigation, multi-camera perception and localization, visual SLAM for indoor drones, and small-object detection — and deploy them on real hardware with ROS 2 and NVIDIA Jetson.
+  summary: Research Associate at the AI Technology Centre (AITeC), Islamabad (Autonomous AI & Decision Support Lab). I build autonomous robotic systems end to end — deep reinforcement learning for navigation, multi-camera perception and localization, visual SLAM for indoor drones, and small-object detection — and deploy them on real hardware with ROS 2 and NVIDIA Jetson.
 
   social_networks:
     - network: GitHub
@@ -42,10 +42,10 @@ cv:
         end_date: 2022-01-01
 
     Experience:
-      - company: Autonomous AI & Decision Support Lab (AITeC), National Centre of Physics
+      - company: AI Technology Centre (AITeC) — Autonomous AI & Decision Support Lab
         position: Research Associate (Assistant Manager, Technical)
-        location: Islamabad, Pakistan
-        url: https://www.ncp.edu.pk/
+        location: National Centre for Physics, Quaid-i-Azam University Campus, Islamabad, Pakistan
+        url: https://www.ncp.edu.pk/coe-aitec.php
         start_date: 2025-05-01
         end_date: present
         highlights:

@@ -9,12 +9,12 @@ last_name: Rizwan
 contact_note: >
   The best way to reach me is by email. I am open to PhD opportunities (Fall 2027) and research collaborations in robotics and computer vision.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Muhammad Rizwan — Research Associate at AITeC, National Centre of Physics, Islamabad. Deep reinforcement learning, computer vision, and autonomous robotics.
+  Muhammad Rizwan — Research Associate at the AI Technology Centre (AITeC), Islamabad. Deep reinforcement learning, computer vision, and autonomous robotics.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Muhammad Rizwan, robotics, deep reinforcement learning, computer vision, YOLO, ROS 2, drone detection, AITeC, NCP, PIEAS
+keywords: Muhammad Rizwan, robotics, deep reinforcement learning, computer vision, YOLO, ROS 2, drone detection, AITeC, AI Technology Centre, PIEAS
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
