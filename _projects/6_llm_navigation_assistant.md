@@ -2,15 +2,18 @@
 layout: page
 title: "LLM-Guided Robot Navigation Assistant"
 description: A desktop assistant that lets you talk to a TurtleBot — combining ROS 2, YOLO, ZED cameras, and a locally hosted LLM.
-img: assets/img/projects/llm_assistant.png
+img: assets/img/projects/aura_gui.png
 importance: 6
 category: robotics
 ---
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/llm_assistant.png" title="project overview" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/aura_gui.png" title="project overview" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
+</div>
+<div class="caption">
+  Combined lab GUI, including the LLM-based navigation panel for the TurtleBot 4.
 </div>
 
 **Goal.** Make robot navigation accessible through natural language: "go to the door", "what do you see?"

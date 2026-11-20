@@ -2,15 +2,27 @@
 layout: page
 title: "Small and Distant Drone Detection with Custom YOLO"
 description: Architecture changes to YOLO (attention, SPD-Conv, lightweight blocks) for detecting tiny drones in the sky.
-img: assets/img/projects/drone_detection.png
+img: assets/img/projects/sd_yolo11n_arch.png
 importance: 4
 category: computer vision
 ---
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/drone_detection.png" title="project overview" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/sd_yolo11n_arch.png" title="project overview" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
+</div>
+<div class="caption">
+  SD-YOLO11n architecture: layers that differ from YOLO11n in red, the added stride-4 P2 branch in blue.
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/projects/sd_yolo_qualitative.png" title="sd_yolo_qualitative.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+<div class="caption">
+  Test frames: ground truth, pretrained baseline and SD-YOLO variant; the last row is a failure case.
 </div>
 
 **Goal.** Detect drones that cover only a few pixels in the image — a hard case for standard object detectors.

@@ -2,15 +2,18 @@
 layout: page
 title: "GPS-Denied Indoor Drone Flight with Visual SLAM"
 description: A custom quadrotor that flies indoors using stereo visual odometry on a Jetson Orin Nano and ArduPilot.
-img: assets/img/projects/indoor_drone.png
+img: assets/img/projects/indoor_drone_diagram.png
 importance: 3
 category: robotics
 ---
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/indoor_drone.png" title="project overview" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indoor_drone_diagram.png" title="project overview" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
+</div>
+<div class="caption">
+  System overview: ZED Mini visual-inertial pose on the Jetson is relayed through MAVROS to the Pixhawk EKF3 for GPS-free flight.
 </div>
 
 **Goal.** Fly a drone indoors, where GPS is not available, using only onboard vision for position.
