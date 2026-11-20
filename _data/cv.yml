@@ -1,0 +1,108 @@
+cv:
+  name: Muhammad Rizwan
+  label: Research Associate — Robotics, Deep Reinforcement Learning & Computer Vision
+  email: rizwan00277@gmail.com
+  location: Islamabad, Pakistan
+  image: ""
+  summary: Research Associate at the Autonomous AI & Decision Support Lab (AITeC), National Centre of Physics, Islamabad. I build autonomous robotic systems end to end — deep reinforcement learning for navigation, multi-camera perception and localization, visual SLAM for indoor drones, and small-object detection — and deploy them on real hardware with ROS 2 and NVIDIA Jetson.
+
+  social_networks:
+    - network: GitHub
+      username: rizwan00277
+    - network: LinkedIn
+      username: muhammad-rizwan277
+    - network: ORCID
+      username: 0009-0000-9834-9929
+
+  address:
+    city: Islamabad
+    region: Pakistan
+    countryCode: PK
+
+  sections:
+    Education:
+      - institution: Pakistan Institute of Engineering and Applied Sciences (PIEAS)
+        location: Islamabad, Pakistan
+        url: https://www.pieas.edu.pk/
+        area: Computer Science
+        studyType: Master of Science (MS)
+        start_date: 2022-11-01
+        end_date: 2024-10-01
+        score: "CGPA: 3.8/4.0 — Gold Medalist"
+        highlights:
+          - "Thesis: Improving the YOLOv8 architecture for the detection of small and distant drones"
+          - "Advisor: Dr. Asifullah Khan"
+
+      - institution: Government College University (GCU)
+        location: Lahore, Pakistan
+        url: https://gcu.edu.pk/
+        area: Computer Science
+        studyType: Bachelor of Science (BS)
+        start_date: 2018-01-01
+        end_date: 2022-01-01
+
+    Experience:
+      - company: Autonomous AI & Decision Support Lab (AITeC), National Centre of Physics
+        position: Research Associate (Assistant Manager, Technical)
+        location: Islamabad, Pakistan
+        url: https://www.ncp.edu.pk/
+        start_date: 2025-05-01
+        end_date: present
+        highlights:
+          - "Developed a Soft Actor-Critic (SAC) deep RL agent for mapless navigation and obstacle avoidance, trained in Gazebo (~650k steps) and transferred to a real TurtleBot 4 on ROS 2 using an OAK-D depth camera as a pseudo-LiDAR."
+          - "Built a dual ZED 2i stereo-camera system that tracks and globally localizes multiple robots in an 8 x 4 m arena in real time (YOLO + stereo depth + Hungarian cross-camera assignment, PyQt5 GUI, up to 60 FPS)."
+          - "Integrated a GPS-denied indoor drone (Pixhawk 6X / ArduPilot, Jetson Orin Nano, ZED Mini): MAVROS visual-pose bridge, EKF3 tuning, and real indoor flight; now developing autonomous waypoint missions."
+          - "Built an LLM-guided navigation assistant combining SLAM, Nav2, YOLO, locally deployed LLMs, and speech interfaces."
+          - "Co-supervise student projects on visual SLAM (ORB-SLAM3) and an autonomous hexapod pick-and-place system."
+
+      - company: The University of Lahore
+        position: Lecturer, Computer Science
+        location: Lahore, Pakistan
+        url: https://uol.edu.pk/
+        start_date: 2024-12-01
+        end_date: 2025-05-01
+        highlights:
+          - "Taught undergraduate computer science courses."
+
+      - company: Pakistan Institute of Engineering and Applied Sciences (PIEAS)
+        position: Teaching Assistant
+        location: Islamabad, Pakistan
+        url: https://www.pieas.edu.pk/
+        start_date: 2023-09-01
+        end_date: 2024-06-01
+        highlights:
+          - "Assisted with course delivery, labs, and grading for graduate-level courses."
+
+    Awards:
+      - title: Gold Medal, MS Computer Science
+        awarder: Pakistan Institute of Engineering and Applied Sciences (PIEAS)
+        date: 2024-10-01
+        summary: Awarded for the highest academic standing in the MS Computer Science program (CGPA 3.8/4.0).
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, C++, Bash"
+
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, Ultralytics YOLO, Stable-Baselines3 (SAC, PPO), OpenCV"
+
+      - name: Robotics
+        icon: fa-solid fa-robot
+        keywords: "ROS 2, Nav2, Gazebo, SLAM (ORB-SLAM3, RTAB-Map), MAVROS, ArduPilot, TurtleBot 4"
+
+      - name: Hardware & Edge AI
+        icon: fa-solid fa-microchip
+        keywords: "NVIDIA Jetson Orin Nano, ZED 2i / ZED Mini, OAK-D, Intel RealSense, Pixhawk 6X"
+
+      - name: Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Git, Linux, Docker, LaTeX, PyQt5"
+
+    Languages:
+      - name: Urdu
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"

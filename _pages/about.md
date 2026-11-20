@@ -1,52 +1,42 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "About Me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: Research Associate at the <a href='https://www.ncp.edu.pk/'>National Centre of Physics</a>, Islamabad · Autonomous AI &amp; Decision Support Lab (AITeC)
+
+profile:
+  align: right
+  image: prof_pic.png
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>AITeC, National Centre of Physics</p>
+    <p>Quaid-i-Azam University Campus</p>
+    <p>Islamabad, Pakistan</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Muhammad Rizwan**, a Research Associate (Assistant Manager, Technical) at the
-Autonomous AI & Decision Support Lab (AITeC), National Centre of Physics (NCP),
-Islamabad. My work centers on autonomous mobile robots — including deep
-reinforcement learning based navigation and obstacle avoidance, computer vision,
-and the integration of robotics hardware with real-world deployment.
+I am a Research Associate (Assistant Manager, Technical) at the **Autonomous AI & Decision Support Lab (AITeC)**, [National Centre of Physics](https://www.ncp.edu.pk/) (NCP), Islamabad, where I work under the supervision of Dr. Muhammad Ahmad Kamran.
 
-I hold an MS in Computer Science from the Pakistan Institute of Engineering and
-Applied Sciences (PIEAS), where I graduated as a **Gold Medalist**. My thesis
-enhanced the YOLOv8 object detection architecture to improve the detection of
-small and distant drones, supervised by Dr. Asifullah Khan. I completed my BS in
-Computer Science from Government College University (GCU), Lahore.
+My research focuses on making **autonomous robots see, localize, and act in the real world**. I work across the full stack — from deep learning models to the hardware they run on:
 
-Research Interests
-======
-- Deep Reinforcement Learning for autonomous navigation (SAC, sim-to-real transfer)
-- Computer Vision and object detection (YOLO family, attention mechanisms)
-- Robotics systems integration (ROS 2, Nav2, SLAM, multi-camera localization)
-- Edge AI deployment and locally deployed LLMs for robotics
+- **Robot learning:** deep reinforcement learning (Soft Actor-Critic) for mapless navigation and obstacle avoidance, with **sim-to-real transfer** from Gazebo to real TurtleBot 4 robots.
+- **Perception and localization:** multi-camera stereo tracking of multiple robots in a shared arena, visual SLAM for **GPS-denied indoor drone flight**, and small-object detection with custom YOLO architectures.
+- **Edge AI:** deploying vision and navigation pipelines on NVIDIA Jetson hardware with ROS 2.
 
-Current Work
-======
-At AITeC, I am building autonomous robotic systems. One project is a TurtleBot 4
-that learns to navigate and avoid obstacles using deep reinforcement learning
-(Soft Actor-Critic) with sim-to-real transfer from Gazebo simulation to real
-indoor environments on ROS 2, using an OAK-D depth camera converted into a
-pseudo-LiDAR scan for perception. Another is a multi-camera robot localization
-system with LLM-guided autonomous navigation, combining SLAM, Nav2, YOLOv8,
-locally deployed LLMs, and speech-to-text / text-to-speech interfaces for
-operation in dynamic indoor environments.
+I received my MS in Computer Science from the [Pakistan Institute of Engineering and Applied Sciences](https://www.pieas.edu.pk/) (PIEAS) as a **Gold Medalist** (CGPA 3.8/4.0), where my thesis improved the YOLOv8 architecture for detecting small and distant drones, supervised by Dr. Asifullah Khan. Before that, I completed my BS in Computer Science at [Government College University (GCU), Lahore](https://gcu.edu.pk/). I have also taught as a Lecturer at the University of Lahore and as a Teaching Assistant at PIEAS.
 
-Experience
-======
-- **Research Associate (Assistant Manager, Technical)** — AITeC, National Centre of Physics (NCP), Islamabad *(May 2025 – Present)*
-- **Lecturer** — The University of Lahore *(Dec 2024 – May 2025)*
-- **Teaching Assistant** — PIEAS, Islamabad *(Sep 2023 – June 2024)*
-
-Education
-======
-- **MS, Computer Science** — PIEAS, Islamabad (Gold Medalist, CGPA 3.8/4.0)
-- **BS, Computer Science** — Government College University (GCU), Lahore
-
-I am currently working toward PhD admission for Fall 2027. You can find my
-publications, CV, and more using the links in the sidebar.
+<div class="alert alert-info" role="alert" style="margin-top: 1.5rem;">
+I am applying for <b>PhD positions starting Fall 2027</b> in robotics, robot learning, and computer vision. Feel free to reach out by email.
+</div>
