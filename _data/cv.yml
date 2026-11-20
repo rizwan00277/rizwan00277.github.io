@@ -62,7 +62,7 @@ cv:
         start_date: 2024-12-01
         end_date: 2025-05-01
         highlights:
-          - "Taught undergraduate computer science courses."
+          - "Taught undergraduate courses: Applications of ICT, Programming Fundamentals, and Object-Oriented Programming."
 
       - company: Pakistan Institute of Engineering and Applied Sciences (PIEAS)
         position: Teaching Assistant
@@ -71,13 +71,18 @@ cv:
         start_date: 2023-09-01
         end_date: 2024-06-01
         highlights:
-          - "Assisted with course delivery, labs, and grading for graduate-level courses."
+          - "Teaching Assistant for Computer Fundamentals and Programming for two semesters."
 
     Awards:
       - title: Gold Medal, MS Computer Science
         awarder: Pakistan Institute of Engineering and Applied Sciences (PIEAS)
         date: 2024-10-01
         summary: Awarded for the highest academic standing in the MS Computer Science program (CGPA 3.8/4.0).
+
+      - title: IT Endowment Fund Scholarship
+        awarder: Pakistan Institute of Engineering and Applied Sciences (PIEAS)
+        date: 2022-11-01
+        summary: Fully funded MS scholarship (PKR 700,000) for MS Computer Science, 2022-2024.
 
     Skills:
       - name: Programming

@@ -6,7 +6,7 @@ subtitle: Research Associate at the <a href='https://www.ncp.edu.pk/'>National C
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>AITeC, National Centre of Physics</p>
